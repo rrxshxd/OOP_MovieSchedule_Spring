@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 @Entity
-@Table(name=)
+@Table()
 public class Ticket {
     @Id
     @GeneratedValue
